@@ -15,10 +15,16 @@ body{
     margin: 65px auto;
 }
 h1 {
+    width: 490px; /*ou usando uma quebra de linha*/
     font-family: var(--font-mulish);
-    color: #000;
+    color: #1F1534;
     font-size: 46px;
     line-height: 56px;
+    font-weight: normal; /* removendo o negrito*/ 
+}
+h1 span {
+    color: #89c5cc;
+    font-weight: bold;
 }
 
 
@@ -42,4 +48,25 @@ ul li a {
 ul li a:hover{
     font-weight: bold;
     border-bottom: 1px solid #1F1534;
+}
+
+p {
+    color: #7d7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+button {
+    font-size: var(--font-open);
+    text-transform: uppercase;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+}
+footer a {
+    color: #1F1534;
+    text-decoration: none;
+    font-weight: bold;
 }
