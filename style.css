@@ -8,3 +8,14 @@ body{
     width: 1008px;
     margin: 65px auto;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
