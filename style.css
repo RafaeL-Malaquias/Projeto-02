@@ -1,13 +1,26 @@
 
 
+:root {
+    --font-open: 'Open Sans', sans-serif;
+    --font-mulish: 'Open Sans', sans-serif;
+}
 body{
     margin: 0;
+    font-family: var(--font-open);
+    
 }
 
 .page {
     width: 1008px;
     margin: 65px auto;
 }
+h1 {
+    font-family: var(--font-mulish);
+    color: #000;
+    font-size: 46px;
+    line-height: 56px;
+}
+
 
 nav {
     display: flex;
@@ -16,7 +29,17 @@ nav {
     margin-bottom: 55px;
 }
 ul {
+    font-family: var(--font-mulish);
     list-style: none;
     display: flex;
     gap: 48px;
+}
+ul li a {
+    color: #1F1534;
+    text-decoration: none;
+}
+/* psseudoclass*/
+ul li a:hover{
+    font-weight: bold;
+    border-bottom: 1px solid #1F1534;
 }
