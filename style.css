@@ -50,11 +50,20 @@ ul li a:hover{
     border-bottom: 1px solid #1F1534;
 }
 
-p {
+section p {
     color: #7d7987;
     font-size: 14px;
     line-height: 28px;
+    margin: 40px 0;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 button {
     font-size: var(--font-open);
