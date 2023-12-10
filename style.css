@@ -1,8 +1,6 @@
-
-
 :root {
     --font-open: 'Open Sans', sans-serif;
-    --font-mulish: 'Open Sans', sans-serif;
+    --font-mulish: ''Mulish', sans-serif;'
 }
 body{
     margin: 0;
@@ -15,7 +13,6 @@ body{
     width: 1280px;
     margin: 0 auto;
     padding-top: 65px;
-    border: 1px solid red;
 }
 h1 {
      /*ou usando uma quebra de linha*/
@@ -53,7 +50,6 @@ nav {
     margin-bottom: 55px;
 }
 ul {
-    font-family: var(--font-mulish);
     list-style: none;
     display: flex;
     gap: 48px;
@@ -79,14 +75,12 @@ button {
     background: #69b99d;
     border: none;
     border-radius: 4px;
-
-    font-size: var(--font-open);
+    font-family: var(--font-open);
     text-transform: uppercase;
     
-
     display: flex;
-    
     align-items: center;
+
     padding: 14px 32px 15px 32px;
     gap: 10px;
     cursor: pointer;
@@ -111,7 +105,6 @@ footer {  /* aqui moveu o footer para baixo*/
 }
 footer a {
     color: #1F1534;
-    text-decoration: none;
     font-weight: bold;
 }
 
