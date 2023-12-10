@@ -7,6 +7,7 @@
 body{
     margin: 0;
     font-family: var(--font-open);
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
     
 }
 
@@ -71,7 +72,7 @@ button {
     background: #69b99d;
     border: none;
     border-radius: 4px;
-    
+
     font-size: var(--font-open);
     text-transform: uppercase;
     
@@ -82,11 +83,12 @@ button {
     
     padding: 14px 32px;
     gap: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background: #3d9b7a;
 }
 
-#icon-btn img {
-
-}
 
 
 
