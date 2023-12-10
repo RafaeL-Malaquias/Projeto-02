@@ -50,7 +50,7 @@ ul li a  {
     opacity: 0.5;
 }
 /* psseudoclass*/
-ul li a:hover{
+a:hover{
     font-weight: bold;
     border-bottom: 1px solid #1F1534;
     opacity: 1;
@@ -112,4 +112,11 @@ footer a {
     color: #1F1534;
     text-decoration: none;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1008px) {
+    .page {
+        width: 100%;
+        flex-direction: column;
+    }
 }
