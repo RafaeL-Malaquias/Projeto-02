@@ -70,9 +70,12 @@ button {
     color: #F9F9F9;
     background: #69b99d;
     border: none;
+    border-radius: 4px;
+    
     font-size: var(--font-open);
     text-transform: uppercase;
-    border-radius: 4px;
+    
+
     display: flex;
     align-content: center;
     align-items: center;
