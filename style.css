@@ -15,18 +15,34 @@ body{
     width: 1280px;
     margin: 0 auto;
     padding-top: 65px;
+    border: 1px solid red;
 }
 h1 {
-    width: 490px; /*ou usando uma quebra de linha*/
+     /*ou usando uma quebra de linha*/
     font-family: var(--font-mulish);
     color: #1F1534;
     font-size: 46px;
     line-height: 56px;
     font-weight: normal; /* removendo o negrito*/ 
+    width: 490px;
 }
 h1 span {
     color: #89c5cc;
     font-weight: bold;
+}
+
+section p {
+    color: #7d7987;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 40px 0;
+    width: 438px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -56,20 +72,6 @@ a:hover{
     opacity: 1;
 }
 
-section p {
-    color: #7d7987;
-    font-size: 14px;
-    line-height: 28px;
-
-    margin: 40px 0;
-}
-
-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 
 
 button {
@@ -83,10 +85,9 @@ button {
     
 
     display: flex;
-    align-content: center;
-    align-items: center;
     
-    padding: 14px 32px;
+    align-items: center;
+    padding: 14px 32px 15px 32px;
     gap: 10px;
     cursor: pointer;
 }
