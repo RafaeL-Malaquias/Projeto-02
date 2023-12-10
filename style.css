@@ -12,7 +12,7 @@ body{
 }
 
 .page {
-    width: 1008px;
+    width: 1280px;
     margin: 0 auto;
     padding-top: 65px;
 }
@@ -42,14 +42,18 @@ ul {
     display: flex;
     gap: 48px;
 }
-ul li a {
+a {
     color: #1F1534;
     text-decoration: none;
+}
+ul li a  {
+    opacity: 0.5;
 }
 /* psseudoclass*/
 ul li a:hover{
     font-weight: bold;
     border-bottom: 1px solid #1F1534;
+    opacity: 1;
 }
 
 section p {
@@ -94,6 +98,7 @@ button:hover{
 #balls {
     position: fixed;
     right: 0;
+    bottom: 0;
 
 }
 
