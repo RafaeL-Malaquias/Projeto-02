@@ -54,6 +54,7 @@ section p {
     color: #7d7987;
     font-size: 14px;
     line-height: 28px;
+
     margin: 40px 0;
 }
 
@@ -66,13 +67,34 @@ main {
 
 
 button {
+    color: #F9F9F9;
+    background: #69b99d;
+    border: none;
     font-size: var(--font-open);
     text-transform: uppercase;
+    border-radius: 4px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
+    padding: 14px 32px;
+    gap: 10px;
 }
 
-footer {
+#icon-btn img {
+
+}
+
+
+
+
+
+
+footer {  /* aqui moveu o footer para baixo*/
+    text-align: center;
     font-size: 14px;
     line-height: 28px;
+    margin-top: 80px;
 }
 footer a {
     color: #1F1534;
