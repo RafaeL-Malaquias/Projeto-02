@@ -8,12 +8,13 @@ body{
     margin: 0;
     font-family: var(--font-open);
     background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
-    
+    min-height: 100vh;
 }
 
 .page {
     width: 1008px;
-    margin: 65px auto;
+    margin: 0 auto;
+    padding-top: 65px;
 }
 h1 {
     width: 490px; /*ou usando uma quebra de linha*/
@@ -90,10 +91,11 @@ button:hover{
 }
 
 
+#balls {
+    position: fixed;
+    right: 0;
 
-
-
-
+}
 
 footer {  /* aqui moveu o footer para baixo*/
     text-align: center;
