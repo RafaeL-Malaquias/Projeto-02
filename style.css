@@ -107,10 +107,3 @@ footer a {
     color: #1F1534;
     font-weight: bold;
 }
-
-@media screen and (max-width: 1008px) {
-    .page {
-        width: 100%;
-        flex-direction: column;
-    }
-}
