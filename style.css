@@ -124,8 +124,16 @@ footer a {
         flex-direction: column;
     }
 
+    .text {
+        text-align: center;
+    }
+
+    button {
+        margin-left: 10px;
+    }
+
     img {
-        
+
     }
 
     nav {
