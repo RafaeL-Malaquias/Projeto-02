@@ -111,34 +111,49 @@ footer a {
 
 /* responsividade */
 
-@media (max-width:730px) {
+@media (max-width:780px) {
     .page {
         display: flex;
         flex-direction: column;
         max-width: 430px;
         padding: 20px;
-
     }
+    .page > a {
+        text-align: center;
+        padding-bottom: 10px;
+    } 
     main {
         display: flex;
         flex-direction: column;
     }
-
+    h1 {
+        font-size: 33px;
+    }
     .text {
         text-align: center;
     }
 
     button {
-        margin-left: 10px;
+        padding: 7px 16px 6px 16px;
+        margin-bottom: 35px;
+        margin: 0 auto;
     }
 
-    img {
-
+   main> img {
+        width: 100%;
     }
 
     nav {
         margin: 0 auto;
 
+    }
+    footer {
+        margin-top: 0;
+    }
+    #balls {
+        position: absolute;
+        bottom: 0;
+        left:   45%;
     }
     
 }
