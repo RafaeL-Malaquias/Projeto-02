@@ -107,3 +107,30 @@ footer a {
     color: #1F1534;
     font-weight: bold;
 }
+
+
+/* responsividade */
+
+@media (max-width:730px) {
+    .page {
+        display: flex;
+        flex-direction: column;
+        max-width: 430px;
+        padding: 20px;
+
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        
+    }
+
+    nav {
+        margin: 0 auto;
+
+    }
+    
+}
