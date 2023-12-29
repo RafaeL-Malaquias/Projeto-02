@@ -14,7 +14,7 @@ body{
 .page {
     width: 80rem;
     margin: 0 auto;
-    padding-top: 65px;
+    padding-top: 6.5rem;
 }
 h1 {
      /*ou usando uma quebra de linha*/
@@ -23,7 +23,7 @@ h1 {
     font-size: 4.6rem;
     line-height: 5.6rem;
     font-weight: normal; /* removendo o negrito*/ 
-    width: 50.625rem;
+    width: 40.625rem;
 }
 h1 span {
     color: #89c5cc;
@@ -32,10 +32,10 @@ h1 span {
 
 section p {
     color: #7d7987;
-    font-size: 14px;
-    line-height: 28px;
-    margin: 40px 0;
-    width: 438px;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    margin: 4.0rem 0;
+    width: 40rem;
 }
 
 main {
@@ -48,7 +48,7 @@ main {
 nav {
     font-size: 1.8rem;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 55px;
 }
