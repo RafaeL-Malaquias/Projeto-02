@@ -1,6 +1,8 @@
 :root {
     --font-open: 'Open Sans', sans-serif;
-    --font-mulish: ''Mulish', sans-serif;'
+    --font-mulish: 'Mulish', sans-serif;
+    font-size: 62.5%;
+    
 }
 body{
     margin: 0;
@@ -10,7 +12,7 @@ body{
 }
 
 .page {
-    width: 1280px;
+    width: 80rem;
     margin: 0 auto;
     padding-top: 65px;
 }
@@ -18,10 +20,10 @@ h1 {
      /*ou usando uma quebra de linha*/
     font-family: var(--font-mulish);
     color: #1F1534;
-    font-size: 46px;
-    line-height: 56px;
+    font-size: 4.6rem;
+    line-height: 5.6rem;
     font-weight: normal; /* removendo o negrito*/ 
-    width: 490px;
+    width: 50.625rem;
 }
 h1 span {
     color: #89c5cc;
@@ -44,8 +46,9 @@ main {
 
 
 nav {
+    font-size: 1.8rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     margin-bottom: 55px;
 }
@@ -53,6 +56,8 @@ ul {
     list-style: none;
     display: flex;
     gap: 48px;
+    margin: 0;
+    padding: 0;
 }
 a {
     color: #1F1534;
@@ -127,7 +132,7 @@ footer a {
         flex-direction: column;
     }
     h1 {
-        font-size: 33px;
+        font-size: 3.3rem;
     }
     .text {
         text-align: center;
@@ -145,6 +150,7 @@ footer a {
 
     nav {
         margin: 0 auto;
+        font-size: 2.2rem;
 
     }
     footer {
