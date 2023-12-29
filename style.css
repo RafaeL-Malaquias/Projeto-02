@@ -98,7 +98,7 @@ button:hover{
 
 #balls {
     position: fixed;
-    right: 0;
+    right: 50%;
     bottom: 0;
 
 }
@@ -134,11 +134,7 @@ footer a {
         flex-direction: column;
     }
     h1 {
-        font-size: 3.3rem;
-    }
-    section p {
-        margin-top: -1rem;
-        margin-bottom: 4rem;
+        font-size: 2.3rem;
     }
     .text {
         text-align: center;
@@ -151,16 +147,18 @@ footer a {
     }
 
    main > img {
-        width: 100%;
+        margin-top: 1.5rem;
+        width: 80%;
     }
 
     nav {
+        font-size: 1.4rem;
         margin: 0 auto;
-        gap: 4.5rem;
+        gap: 2.5rem;
 
     }
     footer {
-        margin-top: 0;
+        margin-top: 5.0rem;
     }
     #balls {
         position: absolute;
